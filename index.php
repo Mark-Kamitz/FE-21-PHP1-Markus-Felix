@@ -50,7 +50,7 @@
         "Lambo" => array
         (
             "name" => "Lambourgini",
-            "type" => "A8",
+            "type" => "Sian FKP 37",
             "date" => "2019",
             "available" => 1,
             "price" => "400",
@@ -63,29 +63,29 @@
             <div class='row'>
 
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div class='card' >
+                    <div class='card shadow border-0 mt-2' >
                         <img src=' ".$carRentals['Audi']['link']." ' class='card-img-top' alt='...'>
                         <div class='card-body'>
-                            <p class='card-text'>Brand: ".$carRentals['Audi']['name']."  </p>
-                            <p class='card-text'>Type: ".$carRentals['Audi']['type']."  </p>
-                            <p class='card-text'>Build: ".$carRentals['Audi']['date']."  </p>
-                            <p class='card-text'>Price: ".$carRentals['Audi']['price']."  </p>
-                            <p class='card-text'>Available: ".$carRentals['Audi']['available']."  </p>
-                            <p class='card-text'>Locatione:  ".$carRentals['Audi']['location']."  </p>
+                            <h4 class='card-text'>Brand: ".$carRentals['Audi']['name']."  </h4>
+                            <p class='h6 card-text '>Type: ".$carRentals['Audi']['type']."  </p>
+                            <p class='card-text fw-light text-muted my-0'>Build: ".$carRentals['Audi']['date']."  </p>
+                            <p class='card-text fw-light text-muted'>Price: ".$carRentals['Audi']['price']."  </p>
+                            <p class='card-text fw-light  my-1'>Available: ".$carRentals['Audi']['available']."  </p>
+                            <p class='card-text fw-light'>Location:  ".$carRentals['Audi']['location']."  </p>
                         </div>
                     </div>
                 </div>
 
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div class='card' >
+                    <div class='card shadow border-0 mt-2' >
                         <img src=' ".$carRentals['Lambo']['link']." ' class='card-img-top' alt='...'>
                         <div class='card-body'>
-                            <p class='card-text'>Brand: ".$carRentals['Lambo']['name']."  </p>
-                            <p class='card-text'>Type: ".$carRentals['Lambo']['type']."  </p>
-                            <p class='card-text'>Build: ".$carRentals['Lambo']['date']."  </p>
-                            <p class='card-text'>Price: ".$carRentals['Lambo']['price']."  </p>
-                            <p class='card-text'>Available: ".$carRentals['Lambo']['available']."  </p>
-                            <p class='card-text'>Locatione: ".$carRentals['Lambo']['location']."  </p>
+                            <h4 class='card-text'>Brand: ".$carRentals['Lambo']['name']."  </h4>
+                            <p class='h6 card-text '>Type: ".$carRentals['Lambo']['type']."  </p>
+                            <p class='card-text fw-light text-muted my-0'>Build: ".$carRentals['Lambo']['date']."  </p>
+                            <p class='card-text fw-light text-muted '>Price: ".$carRentals['Lambo']['price']."  </p>
+                            <p class='card-text fw-light  my-1'>Available: ".$carRentals['Lambo']['available']."  </p>
+                            <p class='card-text fw-light'>Location: ".$carRentals['Lambo']['location']."  </p>
                         </div>
                     </div>
                 </div>
@@ -93,29 +93,29 @@
                 
 
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div class='card' >
+                    <div class='card shadow border-0 mt-2'>
                         <img src=' ".$carRentals['Porsche']['link']." ' class='card-img-top' alt='...'>
                         <div class='card-body'>
-                            <p class='card-text'>Brand: ".$carRentals['Porsche']['name']."  </p>
-                            <p class='card-text'>Type: ".$carRentals['Porsche']['type']."  </p>
-                            <p class='card-text'>Build: ".$carRentals['Porsche']['date']."  </p>
-                            <p class='card-text'>Price: ".$carRentals['Porsche']['price']."  </p>
-                            <p class='card-text'>Available: ".$carRentals['Porsche']['available']."  </p>
-                            <p class='card-text'>Locatione: ".$carRentals['Porsche']['location']."  </p>
+                            <h4 class='card-text'>Brand: ".$carRentals['Porsche']['name']."  </h4>
+                            <p class='h6 card-text '>Type: ".$carRentals['Porsche']['type']."  </p>
+                            <p class='card-text fw-light text-muted my-0'>Build: ".$carRentals['Porsche']['date']."  </p>
+                            <p class='card-text fw-light text-muted'>Price: ".$carRentals['Porsche']['price']."  </p>
+                            <p class='card-text fw-light  my-1'>Available: ".$carRentals['Porsche']['available']."  </p>
+                            <p class='card-text fw-light'>Location: ".$carRentals['Porsche']['location']."  </p>
                         </div>
                     </div>
                 </div>
 
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div class='card' >
+                    <div class='card shadow border-0 mt-2' >
                         <img src=' ".$carRentals['BMW']['link']." ' class='card-img-top' alt='...'>
                         <div class='card-body'>
-                            <p class='card-text'>Brand: ".$carRentals['BMW']['name']."  </p>
-                            <p class='card-text'>Type: ".$carRentals['BMW']['type']."  </p>
-                            <p class='card-text'>Build: ".$carRentals['BMW']['date']."  </p>
-                            <p class='card-text'>Price: ".$carRentals['BMW']['price']."  </p>
-                            <p class='card-text'>Available: ".$carRentals['BMW']['available']."  </p>
-                            <p class='card-text'>Locatione: ".$carRentals['BMW']['location']."  </p>
+                            <h4 class='card-text'>Brand: ".$carRentals['BMW']['name']."  </h4>
+                            <p class='h6 card-text '>Type: ".$carRentals['BMW']['type']."  </p>
+                            <p class='card-text fw-light text-muted my-0'>Build: ".$carRentals['BMW']['date']."  </p>
+                            <p class='card-text fw-light text-muted'>Price: ".$carRentals['BMW']['price']."  </p>
+                            <p class='card-text fw-light  my-1'>Available: ".$carRentals['BMW']['available']."  </p>
+                            <p class='card-text fw-light'>Location: ".$carRentals['BMW']['location']."  </p>
                         </div>
                     </div>
                 </div>
