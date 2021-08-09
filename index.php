@@ -55,7 +55,7 @@
             "available" => 1,
             "price" => "400",
             "location" => "Berlin",
-            "link" => "https://cdn.pixabay.com/photo/2016/11/12/16/39/lamborghini-1819204__340.jpg"
+            "link" => "https://cdn.pixabay.com/photo/2018/03/26/09/29/car-3262045__480.jpg"
         )
 );
         echo"
