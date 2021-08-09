@@ -61,7 +61,6 @@
         echo"
         <div class='container'>
             <div class='row'>
-
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card shadow border-0 mt-2' >
                         <img src=' ".$carRentals['Audi']['link']." ' class='card-img-top' alt='...'>
@@ -75,7 +74,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card shadow border-0 mt-2' >
                         <img src=' ".$carRentals['Lambo']['link']." ' class='card-img-top' alt='...'>
@@ -89,7 +87,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card shadow border-0 mt-2'>
                         <img src=' ".$carRentals['Porsche']['link']." ' class='card-img-top' alt='...'>
@@ -103,7 +100,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card shadow border-0 mt-2' >
                         <img src=' ".$carRentals['BMW']['link']." ' class='card-img-top' alt='...'>
@@ -118,7 +114,6 @@
                     </div>
                 </div>
             </div>
-
             <div class='mt-5'><table class='table table-dark table-striped'>
                 <thead>
                     <tr>
@@ -164,7 +159,7 @@
                             <td>".$carRentals['BMW']['name']."</td>
                             <td>".$carRentals['BMW']['type']."</td>
                             <td>".$carRentals['BMW']['date']."</td>
-                            <td>".$carRentals['BMW']['price']."</td>>
+                            <td>".$carRentals['BMW']['price']."</td>
                             <td>".$carRentals['BMW']['available']."</td>
                             <td>".$carRentals['BMW']['location']."</td>
                         </tr>
