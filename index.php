@@ -90,8 +90,6 @@
                     </div>
                 </div>
 
-                
-
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card shadow border-0 mt-2'>
                         <img src=' ".$carRentals['Porsche']['link']." ' class='card-img-top' alt='...'>
@@ -119,10 +117,12 @@
                         </div>
                     </div>
                 </div>
-            </div><div class='mt-5'><table class='table table-dark table-striped'>
+            </div>
+
+            <div class='mt-5'><table class='table table-dark table-striped'>
                 <thead>
                     <tr>
-                        <th scope='col'>#</th>
+                        <th scope='col'></th>
                         <th scope='col'>Brand</th>
                         <th scope='col'>Type</th>
                         <th scope='col'>Build</th>
@@ -131,44 +131,44 @@
                         <th scope='col'>Location</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <th scope='row'>1</th>
-                        <td>".$carRentals['Audi']['name']."</td>
-                        <td>".$carRentals['Audi']['type']."</td>
-                        <td>".$carRentals['Audi']['date']."</td>
-                        <td>".$carRentals['Audi']['price']."</td>
-                        <td>".$carRentals['Audi']['available']."</td>
-                        <td>".$carRentals['Audi']['location']."</td>
-                    </tr>
-                    <tr>
-                        <th scope='row'>2</th>
-                        <td>".$carRentals['Lambo']['name']."</td>
-                        <td>".$carRentals['Lambo']['type']."</td>
-                        <td>".$carRentals['Lambo']['date']."</td>
-                        <td>".$carRentals['Lambo']['price']."</td>
-                        <td>".$carRentals['Lambo']['available']."</td>
-                        <td>".$carRentals['Lambo']['location']."</td>
-                    </tr>
-                    <tr>
-                        <th scope='row'>3</th>
-                        <td>".$carRentals['Porsche']['name']."</td>
-                        <td>".$carRentals['Porsche']['type']."</td>
-                        <td>".$carRentals['Porsche']['date']."</td>
-                        <td>".$carRentals['Porsche']['price']."</td>
-                        <td>".$carRentals['Porsche']['available']."</td>
-                        <td>".$carRentals['Porsche']['location']."</td>
-                    </tr>
+                    <tbody>
                         <tr>
-                        <th scope='row'>4</th>
-                        <td>".$carRentals['BMW']['name']."</td>
-                        <td>".$carRentals['BMW']['type']."</td>
-                        <td>".$carRentals['BMW']['date']."</td>
-                        <td>".$carRentals['BMW']['price']."</td>>
-                        <td>".$carRentals['BMW']['available']."</td>
-                        <td>".$carRentals['BMW']['location']."</td>
-                    </tr>
-                </tbody>
+                            <th scope='row'>1</th>
+                            <td>".$carRentals['Audi']['name']."</td>
+                            <td>".$carRentals['Audi']['type']."</td>
+                            <td>".$carRentals['Audi']['date']."</td>
+                            <td>".$carRentals['Audi']['price']."</td>
+                            <td>".$carRentals['Audi']['available']."</td>
+                            <td>".$carRentals['Audi']['location']."</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>2</th>
+                            <td>".$carRentals['Lambo']['name']."</td>
+                            <td>".$carRentals['Lambo']['type']."</td>
+                            <td>".$carRentals['Lambo']['date']."</td>
+                            <td>".$carRentals['Lambo']['price']."</td>
+                            <td>".$carRentals['Lambo']['available']."</td>
+                            <td>".$carRentals['Lambo']['location']."</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>3</th>
+                            <td>".$carRentals['Porsche']['name']."</td>
+                            <td>".$carRentals['Porsche']['type']."</td>
+                            <td>".$carRentals['Porsche']['date']."</td>
+                            <td>".$carRentals['Porsche']['price']."</td>
+                            <td>".$carRentals['Porsche']['available']."</td>
+                            <td>".$carRentals['Porsche']['location']."</td>
+                        </tr>
+                            <tr>
+                            <th scope='row'>4</th>
+                            <td>".$carRentals['BMW']['name']."</td>
+                            <td>".$carRentals['BMW']['type']."</td>
+                            <td>".$carRentals['BMW']['date']."</td>
+                            <td>".$carRentals['BMW']['price']."</td>>
+                            <td>".$carRentals['BMW']['available']."</td>
+                            <td>".$carRentals['BMW']['location']."</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div> "   
