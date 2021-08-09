@@ -55,10 +55,12 @@
             "available" => 1,
             "price" => "400",
             "location" => "Berlin",
-            "link" => "https://cdn.pixabay.com/photo/2017/03/12/19/12/lamborghini-2137815_1280.jpg"
+            "link" => "https://cdn.pixabay.com/photo/2016/11/12/16/39/lamborghini-1819204__340.jpg"
         )
 );
-        echo"<div class='row'>
+        echo"
+        <div class='container'>
+            <div class='row'>
 
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3'>
                     <div class='card' >
@@ -117,7 +119,8 @@
                         </div>
                     </div>
                 </div>
-            </div>"
+            </div>
+        </div> "   
     ?>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
