@@ -1,7 +1,7 @@
 ![Bildschirmfoto 2021-08-11 um 18 34 01](https://user-images.githubusercontent.com/85449060/129067924-bb50866c-5e4b-4ae8-9ed9-339fd5420c86.png)
 # FE-21-PHP1-Markus-Felix
 
-## Day 1 | Challenge
+### Day 1 | Challenge
 
 * This chapter will be Project-based. We will create a Car rental agency. 
 
